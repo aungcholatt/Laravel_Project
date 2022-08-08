@@ -1,0 +1,23 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* #pizza-image {
+    filter: brightness(70%);
+}
+#pizza-image:hover {
+    filter: brightness(100%);
+} */
+
+#code-lab-pizza {
+    animation: shake 1s infinite;
+}
+
+@keyframes shake {
+    from{
+        transform: scale(1.02);
+    }
+    to{
+        transform: scale(1);
+    }
+}
