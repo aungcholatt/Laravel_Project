@@ -32,7 +32,7 @@ Route::middleware([
      Route::get('changePassword','AdminController@changePasswordPage')->name('admin#changePasswordPage');
      Route::post('changePassword/{id}','AdminController@changePassword')->name('admin#changePassword');
     //CategoryController
-     Route::get('category','CategoryController@category')->name('admin#category');//list
+     Route::get('category','CategoryController@category')->name('admin#category');
      Route::get('addCategory','CategoryController@addCategory')->name('admin#addCategory');
      Route::post('createCategory','CategoryController@createCategory')->name('admin#createCategory');
      Route::get('deleteCategory/{id}','CategoryController@deleteCategory')->name('admin#deleteCategory');
